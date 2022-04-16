@@ -1,20 +1,235 @@
 <!DOCTYPE html>
 
-<html lang="pt" xmlns="http://www.w3.org/1999/xhtml">
-   <head>
-      <meta charset="utf-8" />
-      <title>Wilis Jean</title>
+<html lang="PT-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Viewport" content="Width=device-width, initial-scale=1.0">
+        
+        <!-- font awesome cdn link  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+        <!--CSS Local-->
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="imagens/favicon.png">
 
-  </head>
-  <body>
+        <!--Boostrap-->
 
-      <h1>Bem vindo ao meus site <i>Wilis Jean</i></h1>
-      <h3>Site ainda em desenvolvimento</h3>
-     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3640088913526594"
-     crossorigin="anonymous"></script>
+        <!--Título do site-->
+        <title>Wilis Jean - Site Pessoal</title>
+
+    </head>
+
+    <body>
+
+        <!--Sessão Header Inicio-->
+        <header>
+            <div class="user">
+                <img src="imagens/eu.jpg" alt="Wilis Jean">
+                <h3 class="name">Wilis Jean de A. Passos</h3>
+                <p class="post">Desenvolvedor Web</p>
+
+            </div>
+
+            <nav class="navbar" id="myTopnav">
+                <ul>
+                    <li><a href="#home">home</a></li>
+                    <li><a href="#about">Sobre Mim</a></li>
+                    <li><a href="#education">Formação</a></li>
+                    <li><a href="#portifolio">Experiência Profissional</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+
+            </nav>
+
+        </header>
+        <!--Sessão Header Fim-->
+
+        <div id="menu"><i class="fa fa-bars"></i></div>
+
+        <!--Home Session Start -->
+
+        <section class="home" id="home">
+            <h3>Olá!</h3>
+            <h1>Eu sou <span>Wilis Jean</span></h1>
+            <p>Recém ingressado na Graduação de Tecnologia em Analise e Desenvolvimento de sistema, Pós graduado em Gestão Financeira, Bacharel em Administração de Empresas, 
+            trabalhei a maior parte do tempo como Coordenador administrativo no setor de logística, onde sou responsável pelo faturamento, acompanhamento de entregas e todos os processos logísticos, 
+            hoje faço parte do time do CD da Master Magazine na parte de Analise de estoque, roteirização e fretes. Ingressei no Grupo Master Magazine pela primeira vez em 2009, com uma saída e retorno entre maio e
+             setembro de 2013, já passei por diversos cargos, desde 2013 todos na área logística, onde aprendi muito mesmo sem formação especifica na área.
+            Sou apaixonado por finanças, gestão de números e tecnologia e excel.</p>
+            <p>Pretendo me tornar um profissional de TI, carreira que não cheguei a iniciar mesmo tendo me formado em TI(técnico) no IFSertão-PE, pois logo depois comecei a graduação de administração de empresa e 
+            por já trabalhar numa empresa de varejo acabou sendo mais conveniente,  agora com o ingresso no Curso de Analise e Desenvolvimento de Sistema, pretendo retomar o desejo de me tornar um profissional de TI.</p>
+            <a href="#about">,<button class="btn">Sobre Mim <i class="fas fa-user"></i></button></a>
+        </section>
+
+        <!--Home Session End -->
+        <div></div>
+        <!--about Session End -->
+        <section class="about" id="about">
+
+            <h1 class="heading"><span>Sobre Mim</span></h1>
+
+            <div class="row">
+                <div class="info">
+                    <h3><span>Name: </span>Wilis Jean</h3>
+                    <h3><span>Idade: </span>31</h3>
+                    <h3><span>Formação: </span>Graduado em administração e Pós Graduado em finaças, atualmente Estudante de TI</h3>
+                    <h3><span>post:</span>Coordenador/Analista em logística - Estudante de TI</h3>
+                    <h3><span>Idioma: </span>Postuguês</h3>
+                    <button class="btn" onclick="window.print()">Download CV <i class="fas fa-download"></i></button></a>
+                </div>
+
+                <div class="counter">
+                    <div class="box">
+
+                        <span>8+</span>
+                        <h3>Logística</h3>
+                    </div>
+                    <div class="box">
+                        <span>12+</span>
+                        <h3>Comércio</h3>
+                        
+                    </div> 
+
+                    <div class="box">
+                        <span>1+</span>
+                        <h3>HTML+CSS</h3>
+                        
+                    </div>
+                    <div class="box">
+                        <span>4+</span>
+                        <h3>Excel Avançado</h3>
+                        
+                    </div>
+
+                    <div class="box">
+                        <span>4+</span>
+                        <h3>Cursos de Aperfeiçoamento</h3>
+                        
+                    </div>
+                                        
+                </div>
+            </div>
+        </section>
+        <!--About Session End -->
+
+        <!--session star education-->
+
+        <section class="education" id="education">
+
+            <h1 class="heading"><span>Formação</span></h1>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>2022-2024</span>
+                    <h3>CST ANALISE E DESENVOLVIMENTO DE SISTEMA</h3>
+                    <p>Graduação em analise e Desenvolvimento de sistemas pela Uninassau</p>
+
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>2017</span>
+                    <h3>Pós Graduação em MBA em Gestão Financeira</h3>
+                    <p>Formado pela UCAM - Universidade Cândido Mendes</p>
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>2014</span>
+                    <h3>Bacharel em Administração</h3>
+                    <p>Formado em administração pela Unopar - UNIVERSIDADE DO NORTE DO PARANÁ</p>
+                    
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>2012</span>
+                    <h3>Técnico Imformática</h3>
+                    <p>Formado em informática pelo Instituto federal de Ciências e Tecnologia do Sertão Pernambuano (IFSERTÂO-PE)</p>
+                    
+                </div>
+            </div>
+
+        </section>
+        <!--session end education-->
+
+        <section class="portifolio" id="portifolio">
+        
+            <h1 class="heading"><span>Experiência Profissional</span></h1>
+
+            <div class="box-container">
+
+               
+                <div class="box">
+                    <i class="fa fa-address-card-o" aria-hidden="true"></i>
+                    <h2><a href="https://www.mastermagazine.com.br/" target="_blanck">Grupo Master Magazine</a></h2>
+                    <br>
+                    <span>09/2013 - atualmente</span>
+                    
+                    <h3>ANALISTA</h3>
+                    <h4>08/2021-Atual</h4>
+                    <p>Em Agosto deixei mais uma vez o cargo de coordenador administrativo e de Logística da Globo e fui trabalhar no CD da Master Magazine, que foi aberto em Petrolina. Lá analiso os estoque das lojas e faço a reposição de acordo com as vendas e com o estoque disponível no CD, sou responsável pelo Picking.</p>
+                    
+                    <h3>COORDENADOR ADM E LOGÍSTIA</h3>
+                    <h4>06/2015-08/2021</h4>
+                    <p>Coordenador administrativo no setor de logística da empresa. Responsavel pelo setor de faturamento, roteirização e transportes, além da parte financeira e administrativa.</p>
+
+                    <h3>Coordenador adm. de Logística Reversa</h3>
+                    <h4>01/2017-09/2018</h4>
+                    <p>Coordenei o núcle de logístia reversa, onde tinhamos metas de devolução mensal e anual.</p>
+
+                    <h3>Auxiliar administrativo/logística</h3>
+                    <h4>09/2013-05/2015</h4>
+                    <p>Iniciei como auxiliar administrativo no setor de faturamento.</p>
+
+                </div>
+
+                <div class="box">
+                    <i class="fa fa-address-card-o" aria-hidden="true"></i>
+                    <h2><a href="https://www.mastermagazine.com.br/" target="_blanck">Grupo Master Magazine</a></h2>
+                    <br>
+                    <span>05/2009 - 04/2013</span>
+                    
+                    <h3>Auxiliar de compras</h3>
+                    <h4>08/2012-04/2013</h4>
+                    <p>Em Agosto deixei função de estoquista na loja e fui trabalhar no núcleo de compras da empresa.</p>
+                    
+                    <h3>Estoquista</h3>
+                    <h4>05/2020-08/2012</h4>
+                    <p>Entrei na oja da Master sendo meu primeiro emprego, incialmente era repositor a auxiliar do estoquista, pouco tempo depois asssumi o comando do estoque.
+                </div>
+
+            </div>
+        </section>
+
+        <footer>
+            <h1 class="heading"><span>Contato</span></h1>
+            <div class="row">
+                <div class="contato" id="contato">
+                    
+                    <h3><i class="fas fa-envelope"></i><a href="mailto:wilisjean@hotmail.com"> wilisjean@hotmail.com</a></h3>
+                    <h3><i class="fa fa-linkedin-square" aria-hidden="true"></i><a href="https://www.linkedin.com/in/wilis-jean/" target="_blank"> Meu LinkedIn</a></h3>
+                    <h3><i class="fa fa-whatsapp" aria-hidden="true"></i> <a href="https://wa.me/message/46YQRCB4HZJGK1" target="_blank">Chama no Zap</a></h3>
+                </div>
+                <div class="redessociais"></div>
+            </div>
+        </footer>
+
+        <!--session start portifolio-->
 
 
-  </body>
+
+        <!--session end education-->
+
+        <!--Jquery CDN Link-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+        <!--JS Customização-->
+        <script src="script.js"></script>
+        
+    </body>
+
 </html>

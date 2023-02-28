@@ -114,6 +114,10 @@ section{
     padding: 1rem;
 }
 
+.fa-bars{
+    opacity: 0.9;
+}
+
 .btn{
     padding: .7rem 2rem;
     background: #333;
@@ -402,6 +406,10 @@ footer .row .contato h3{
       float: right;
       display: block;
     }
+    #menu{
+        background-color: transparent;
+    }
+ 
 }
 
 

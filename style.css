@@ -152,6 +152,11 @@ section{
     color: var(--yellow);
 }
 
+.about .row .info .idade{
+    color: #eee;
+    font-style: normal;
+}
+
 #menu{
     position: fixed;
     top: 0;
